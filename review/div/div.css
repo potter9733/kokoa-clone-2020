@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: tomato;
+  height: 100vh;
+  width: 100vw;
+}
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 33vh;
+  width: 33vh;
+  background-color: wheat;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+.in {
+  background-color: teal;
+  border: 3px solid white;
+  height: 25%;
+}
+
+.ud {
+  width: 25%;
+}
+
+.mid {
+  border-style: dashed;
+  width: 95%;
+}
