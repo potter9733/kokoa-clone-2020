@@ -1,0 +1,86 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #6bbceb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 50%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10%;
+}
+
+.content-box {
+  height: 33%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes rotate {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(180deg);
+  }
+}
+
+.upper {
+  animation: rotate 1s ease-in-out infinite;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+@keyframes extension {
+  0% {
+    transform: none;
+  }
+  33% {
+    transform: scaleY(2);
+  }
+  66% {
+    transform: none;
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.stick {
+  height: 50%;
+  width: 15%;
+  background-color: white;
+  animation: extension 1s ease-in-out infinite;
+}
+
+.stick:first-child {
+  animation-delay: 0.1s;
+}
+
+.stick:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.stick:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.stick:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.stick:last-child {
+  animation-delay: 0.5s;
+}
