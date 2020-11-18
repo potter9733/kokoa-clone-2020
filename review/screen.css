@@ -1,0 +1,170 @@
+body {
+  height: 840px;
+  width: 410px;
+  border: 3px solid #00c6ad;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  height: 120px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.close {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  margin: 5px;
+}
+
+.playing {
+  height: 140px;
+  width: 398px;
+  display: flex;
+}
+.playing_image {
+  height: 137px;
+  width: 137px;
+  border: 2px solid black;
+  border-radius: 16px;
+  background-color: #ffbd11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playing_image span {
+  font-size: 46px;
+  transform: scaleY(1.5);
+}
+
+.playing_music {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.playing_music-name,
+.playing_singer {
+  padding: 0;
+  margin: 0;
+}
+.btns {
+  height: 150px;
+  width: 398px;
+  padding: 45px 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btns_play {
+  width: 180px;
+  height: 65px;
+  border: 2px solid black;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shadow {
+  box-shadow: 0 3px black;
+}
+.btns_play i {
+  margin: 0 10px;
+}
+.btns_play span {
+  font-weight: 300;
+}
+
+.btns_like,
+.btns_add {
+  width: 65px;
+  height: 65px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btns_play span,
+.btns_play i {
+  font-size: 25px;
+}
+
+.btns_like i,
+.btns_add i {
+  font-size: 30px;
+}
+
+.others {
+  height: 390px;
+  width: 398px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.songs {
+  height: 60px;
+  width: 398px;
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+}
+
+.songs_image {
+  height: 55px;
+  width: 55px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.songs_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 15px;
+  box-sizing: border-box;
+}
+
+.songs_info h2 {
+  padding: 0;
+  margin: 0;
+}
+
+.songs_info_music-name {
+  font-size: 18px;
+}
+.songs_info_singer {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.red {
+  background-color: #f85a2a;
+}
+
+.pink {
+  background-color: #ff89bb;
+}
+
+.blue {
+  background-color: #1947e5;
+}
+
+.green {
+  background-color: #00c6ad;
+}
