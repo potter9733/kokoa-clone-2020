@@ -1,0 +1,22 @@
+.nav {
+  z-index: 99;
+  position: fixed;
+  bottom: 0;
+  width: 389px;
+  background-color: black;
+  padding: 24px 28px;
+  box-sizing: border-box;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__image {
+  height: 30px;
+  width: 30px;
+  background-color: tomato;
+  border-radius: 50%;
+}

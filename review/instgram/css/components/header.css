@@ -1,0 +1,46 @@
+.header {
+  height: 45px;
+  width: 100%;
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 13px;
+  box-sizing: border-box;
+}
+
+.header__column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__column span {
+  font-size: 22px;
+}
+
+.header__column i {
+  margin-right: 10px;
+}
+
+.header__search {
+  color: gray;
+}
+
+.header__photo {
+  margin-left: 14px;
+}
+
+.fa-angle-down {
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.header__column .fa-plus {
+  margin-right: 20px;
+}
+
+.header__column .fa-bars,
+.header__column .fa-paper-plane {
+  margin-left: 10px;
+}

@@ -1,0 +1,138 @@
+.main-image {
+  height: 389px;
+  width: 100%;
+  background-color: wheat;
+  position: relative;
+}
+
+.main-image__with {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+}
+
+.main-image__with span {
+  font-size: 13px;
+}
+
+.main-image__more {
+  height: 40px;
+  width: 100%;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.main-image__more .fa-heart {
+  color: red;
+}
+
+.main-image__more-column {
+  height: 100%;
+  width: 33%;
+}
+
+.main-image__more-heart i {
+  margin-right: 16px;
+}
+.main-image__more-nextpage {
+  display: flex;
+  justify-content: center;
+}
+.main-image__more-bookmark {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main__who-likes {
+  width: 100%;
+  height: 26px;
+
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 13px;
+  position: relative;
+}
+
+.main__who-likes__image {
+  z-index: 3;
+  width: 17px;
+  height: 17px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: yellowgreen;
+}
+
+.main__who-likes__image_1 {
+  z-index: 2;
+  background-color: peru;
+  position: absolute;
+  left: 26px;
+}
+
+.main__who-likes__image_2 {
+  z-index: 1;
+  background-color: skyblue;
+  position: absolute;
+  left: 38px;
+}
+
+.main__who-likes__comment {
+  position: absolute;
+  left: 66px;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.main__comment,
+.main__all-comments,
+.main__reply {
+  padding: 0 13px;
+  margin: 4px 0;
+}
+
+.main__all-comments {
+  color: gray;
+}
+
+.main__reply {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.main__reply__image {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background-color: tomato;
+  margin-right: 8px;
+}
+
+.main__reply__input {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.main__reply__emoticons {
+  display: flex;
+  align-items: center;
+}
+
+.main__reply__emoticons span {
+  font-size: 8px;
+  margin-left: 10px;
+}

@@ -1,0 +1,22 @@
+@import "reset.css";
+
+@import "screens/home.css";
+@import "screens/search.css";
+@import "screens/camera.css";
+@import "screens/shop.css";
+@import "screens/my.css";
+
+@import "components/status-bar.css";
+@import "components/user-bar.css";
+@import "components/nav.css";
+@import "components/header.css";
+@import "components/main.css";
+@import "components/no-moblie.css";
+
+body {
+  height: 821px;
+  width: 389px;
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+}
